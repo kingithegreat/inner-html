@@ -1,0 +1,106 @@
+.starterGrid{
+height: 600px;
+width: 400px;
+background-color: rgb(103, 103, 145);
+border-radius: 20px;
+display: grid; 
+grid-template-columns:repeat(15,1fr);
+grid-template-rows:repeat(15,1fr);
+}
+ 
+h1{
+text-align: center;
+color: azure;
+font-family: sans-serif;
+margin: 0;
+
+} 
+
+#navBar{
+    height: 50px;
+    width: 400px;
+    background-color: rgb(180, 180, 161);
+}
+.box1{
+    grid-column:4/13;
+    grid-row: 4/9;
+   background-color: aquamarine;
+   background:url(/images/man.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:contain;
+
+}
+/* .box1:hover{ */
+
+/* } */
+.box2{
+    grid-column: 4/13;
+    grid-row:10/12 ;
+    background-color: aqua;
+}
+.box2:hover{
+opacity: 0.7;
+}
+.box3{
+
+    grid-column:4/13;
+    grid-row: 4/9;
+   background-color: aquamarine;
+   background:url(/images/man2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:contain;
+}
+/* .box3:hover{
+
+} */
+.box4{
+
+    grid-column:4/13;
+    grid-row: 4/9;
+   background-color: aquamarine;
+   background:url(/images/man3.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:contain;
+}
+/* .box4:hover{
+
+} */
+.box5{
+
+    background-color: rgb(135, 118, 152);
+}
+/* .box5:hover{
+
+} */
+/* CSS */
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #111;
+  }
+  
+
